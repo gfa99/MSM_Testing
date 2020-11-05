@@ -20,13 +20,6 @@ public:
 		EWGo
 	};
 
-	enum class Evt {
-		WAIT_TIMER = 0,
-		IDLE_TIMER,
-		TRAFFIC_CAR_NS_REQ,
-		TRAFFIC_CAR_EW_REQ
-	};
-
 	static std::atomic<Section> section;
 
 private:
